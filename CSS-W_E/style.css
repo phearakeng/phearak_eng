@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(7, 7, 7);
+    background-color: rgba(7, 7, 7, 0.877);
     margin: 20px;
 }
 *{
@@ -20,7 +20,7 @@ ul{
     position: relative;
     width: 100%;
     height: 90vh;
-    background-image: url(photo.jpg);
+    background-image: url(we.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0px 0px 200px 0px;
@@ -87,11 +87,12 @@ ul li {
     left: 0;
     color: rgb(198, 247, 20);
     text-shadow: 2px -2px 0px #ff2802fa;
-    font-size: 30px;
+    font-size: 25px;
+    font-variant: small-caps;
 }
 
 .header .banner .app-text{
-    padding-left: 400px;
+    padding-left: 200px;
 }
 
 .container{
@@ -108,207 +109,92 @@ ul li {
     justify-content: flex-start;
 }
 
-.wratext{
-    width: 30%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 3px solid rgb(236, 181, 28);
-    height: 105vh;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    color: white;
-    justify-content: flex-end;
-}
-input{
-    padding: 10px;
-    margin: 5px 0;
-    box-sizing: border-box;
-    width: 100%;
-}
-input[type=email]{
-    width: 100%;
-}
-input[type=date]{
-    width: 100%;
-}
-input[type=submit]{
-    border: none;
-    background:  rgb(243, 247, 13);
-    cursor: pointer;
-    text-transform: uppercase;
-    outline: none;
-    border-radius: 40px;
-    color: rgb(8, 7, 7);
-    font-size: 15px;
-    height: 30px;
-    width: 100%;
-}
-
-input[type=reset]{
-    border: none;
-    background:  rgb(233, 56, 3);
-    cursor: pointer;
-    text-transform: uppercase;
-    outline: none;
-    border-radius: 40px;
-    color: rgb(8, 7, 7);
-    font-size: 15px;
-    height: 30px;
-    width: 100%;
-}
-
-input[type=radio]{
-    width: 5%;
-}
-select{
-    width: 100%;
-    margin: 5px 0;
-    padding: 5px;
-}
-input[type=file]{
-    margin-top: 1px;
-    width: auto;
-    height: 40px;
-}
-
-input[type=checkbox]{
-    margin: 10px 0;
-    font-size: 5px;
-    width: 5%;
-}
-h2{
-    text-transform: uppercase;
-    color: rgb(247, 239, 247);
-    font-size: 20px;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-
-fieldset{
-    height: 45px;
-    width: auto;
-}
-
-.main-box{
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom:  100vh;
-}
-
-.contact{
-    display: block;
-}
-
-ul li img a:hover, a:active{
-    font-size: 150%;
-}
-
 i{
-    color: rgb(245, 7, 7);
+    color: red;
 }
-
 i:hover{
-    color: rgb(250, 246, 249);
+    color: rgb(250, 248, 248);
 }
 
-.contact-form .form-info{
-    justify-content: flex-end;
-    color: rgb(248, 250, 245);
-    display: flex;
-    font-size: 20px;
-    margin-left: 10px;
-    padding: 8px;
+/*----------------------------- Header Style --------------------------*/
+
+p{
+    color: white;
+    font-variant: small-caps;
+    font-weight: 200;
+    background: tomato;
+    height: 100px;
     box-sizing: border-box;
 }
 
-.contact-form{
-    background-image: url(10.jpg);
-    width: 85%;
-    height: 92vh;
-    margin-right: 110vh;
-    margin-left: 100px;
-    margin-top: 20px;
+.container{
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.wraptext{
+    margin: 10px;
+}
+
+h2{
+    color: white;
+    background: rgba(137, 43, 226, 0.281);
+    width: 250%;
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    height: 46%;
+}
+
+.wraptext{
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.p-one p{
+    background: rgba(2, 2, 255, 0.452);
+    width: 100%;
+    padding: 10px;
+}
+
+.p-two p{
+    background: rgba(159, 240, 8, 0.452);
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul li{
+    color: white;
 }
 
 h3{
-    color: rgb(53, 19, 248);
-    font-size: 28px;
-    font-variant: small-caps;
-    font-weight: 700;
-    margin-left: 100px;
-    text-transform: uppercase;
-    text-shadow: 2px -2px 0px #18f304fa;
-}
-
-.contact-form .form-info:hover{
-    color: #76ff03;
-}
-
-.contact-form .form-info:active{
-    font-size: 30px;
+    color: rgb(253, 176, 11);
+    font-size: 25px;
 }
 
 p{
-    color: rgb(195, 98, 252);
-    font-size: 25px;
-    margin-left: 100px;  
-    text-shadow: 2px -2px 0px #3905f5fa; 
+    height: 40%;
+    text-transform: none;
+    margin-bottom: 10px;
 }
 
-.education{
-    margin: 10px;
-    color: white;
-    padding: 10px;
-}
-
-.experience{
-    margin: 10px;
-    color: white;
-    padding: 10px;
-}
-
-.technical{
-    margin: 10px;
-    color: white;
-    padding: 10px;
-}
-
-.skill{
-    margin: 10px;
-    color: white;
-    padding: 10px;
-}
-
-h4{
-    color: white;
-}
-
-h5{
-    color: yellow;
-    font-weight: 300;
-}
-
-.search{
-    margin: 10px;
-}
-
-input[type=research]{
-    width: 50vh;
-    margin-left: 50px;
-}
-
-/* footer */
+/* Footer */
 
 .main-content{
     display: flex;
-    margin-top: 60px;
+    margin-top: 25%;
 }
 
 footer{
     bottom: 0px;
     width: 100%;
-    background: rgb(41, 37, 37);
+    background: rgba(29, 24, 24, 0.911);
     color: white;
 }
 
@@ -379,4 +265,8 @@ button[type=submit]{
     background: yellow;
     width: 100%;
     height: 30px;
+}
+
+.flex{
+    display: inline-block;
 }
