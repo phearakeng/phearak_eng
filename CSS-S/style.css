@@ -73,11 +73,28 @@ ul li {
     display: inline-block;
 }
 
-.menu ul{
-    margin-left: 300px;
+.navbar{
+    width: 100%;
+    background: rgba(41, 158, 226, 0.205);
 }
 
-.header .menu ul li a:hover{
+.navbar .menu{
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu i{
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.navbar ul li:hover{
+    background: crimson;
+    height: 30px;
+}
+
+.menu ul li a:hover{
     color: red;
 }
 
